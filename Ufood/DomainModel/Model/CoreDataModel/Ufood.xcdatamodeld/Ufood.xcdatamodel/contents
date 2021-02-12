@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CustomDish" representedClassName="CustomDish" parentEntity="Object" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String"/>
+        <relationship name="ingredients" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Ingredient" inverseName="dish" inverseEntity="Ingredient"/>
+        <relationship name="listedCustomDish" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ListedCustomDish" inverseName="customDish" inverseEntity="ListedCustomDish"/>
+    </entity>
+    <entity name="Day" representedClassName="Day" parentEntity="Object" syncable="YES">
+        <attribute name="day" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="month" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="year" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="foods" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="ListedFood" inverseName="day" inverseEntity="ListedFood"/>
+    </entity>
+    <entity name="FavoriteFood" representedClassName="FavoriteFood" parentEntity="Object" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Ingredient" representedClassName="Ingredient" parentEntity="Object" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="quantity" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="dish" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CustomDish" inverseName="ingredients" inverseEntity="CustomDish"/>
+    </entity>
+    <entity name="ListedBaseFood" representedClassName="ListedBaseFood" parentEntity="ListedFood" syncable="YES">
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ListedCustomDish" representedClassName="ListedCustomDish" parentEntity="ListedFood" syncable="YES" codeGenerationType="class">
+        <relationship name="customDish" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CustomDish" inverseName="listedCustomDish" inverseEntity="CustomDish"/>
+    </entity>
+    <entity name="ListedFood" representedClassName="ListedFood" parentEntity="Object" syncable="YES">
+        <attribute name="colorMarker" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="portionQuantity" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="day" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="foods" inverseEntity="Day"/>
+    </entity>
+    <entity name="Object" representedClassName=".Object" isAbstract="YES" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="CustomDish" positionX="-505.845947265625" positionY="-3510.328796386719" width="128" height="88"/>
+        <element name="Day" positionX="-1002.251586914062" positionY="-3673.814254760742" width="128" height="103"/>
+        <element name="FavoriteFood" positionX="-591.104736328125" positionY="-3755.681747436523" width="128" height="44"/>
+        <element name="Ingredient" positionX="-497.9087524414062" positionY="-3639.835601806641" width="128" height="88"/>
+        <element name="ListedBaseFood" positionX="-846.1569213867188" positionY="-3556.022277832031" width="128" height="58"/>
+        <element name="ListedCustomDish" positionX="-685.0552978515625" positionY="-3556.009338378906" width="128" height="58"/>
+        <element name="ListedFood" positionX="-810.822998046875" positionY="-3681.421020507812" width="130.640625" height="103"/>
+        <element name="Object" positionX="-816.9296875" positionY="-3808.94921875" width="128" height="43"/>
+    </elements>
+</model>
