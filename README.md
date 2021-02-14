@@ -1,10 +1,10 @@
 # UFood
 
-## About
-
 The application is a food diary with the function of calculating and review of the eaten nutrients.
 
-Compatible with iOS 12 and newer.
+![Main screen](https://user-images.githubusercontent.com/77031399/107876625-1c329380-6ed8-11eb-870b-a745f06f6b55.png)
+
+## Features
 
 The current functionality of the application consists of two main user flows: **food diary** and **statistics**.
 
@@ -22,9 +22,9 @@ Statistics features:
   - shows the eaten nutrients for this period with the percentage of the consumed amount to the norm
   - user can open a detailed view of any of the nutrients, in which he can see in which foods and how much contains of this nutrient
 
-*To this repository has been added a demo version of food's database.*
+Compatible with iOS 12 and newer.
 
-*Copyright © 2020-2021 Macnolia. All rights reserved.*
+*To this repository has been added a demo version of food's database.*
 
 ## Technology Stack
 
@@ -36,3 +36,5 @@ Statistics features:
   - AutoLayout with programmatic implementation - to create an adaptive interface.
 
 ## Screenshots...
+
+*Copyright © 2020-2021 Macnolia. All rights reserved.*
