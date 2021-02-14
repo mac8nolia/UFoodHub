@@ -28,12 +28,12 @@ Compatible with iOS 12 and newer.
 
 ## Technology Stack
 
-  - Swift - programming language. 
-  - UIKit - UI framework. 
-  - MVP - architecture pattern for separating business and UI logics.
-  - SQLite - store of common food's database. As layer over SQLite used framework SQLite.swift (installed with dependency manager CocoaPods).
-  - CoreData - store of user's data. 
-  - AutoLayout with programmatic implementation - to create an adaptive interface.
+  - **Swift** - programming language. 
+  - **UIKit** - UI framework. 
+  - **MVP** - architecture pattern for separating business and UI logics.
+  - **SQLite** - store of common food's database. As layer over SQLite used framework SQLite.swift (installed with dependency manager CocoaPods).
+  - **CoreData** - store of user's data. 
+  - **AutoLayout with programmatic implementation** - to create an adaptive interface.
 
 ## Screenshots
 
