@@ -31,7 +31,7 @@ Compatible with iOS 12 and newer.
   - **Swift** - programming language. 
   - **UIKit** - UI framework. 
   - **MVP** - architecture pattern for separating business and UI logics.
-  - **SQLite** - store of common food's database. As layer over SQLite used framework SQLite.swift [SQLite.swift](https://github.com/stephencelis/SQLite.swift) (installed with dependency manager CocoaPods).
+  - **SQLite** - store of common food's database. As layer over SQLite used framework [SQLite.swift](https://github.com/stephencelis/SQLite.swift) (installed with dependency manager CocoaPods).
   - **CoreData** - store of user's data. 
   - **AutoLayout with programmatic implementation** - to create an adaptive interface.
 
