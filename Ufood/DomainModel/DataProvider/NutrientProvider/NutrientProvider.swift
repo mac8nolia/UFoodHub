@@ -7,7 +7,7 @@
 //
 
 /**
- Created for food or statistics presenter and supply them nutrients for represent
+ Created for food or statistics presenter and supplies them nutrients for represent
  */
 class NutrientProvider {
     
