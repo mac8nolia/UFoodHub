@@ -22,7 +22,7 @@ enum StatisticsPeriod {
         case .month:
             return (30, "Месяц", 30) // or "Month"
         case .week:
-            return (7, "Неделя", 7) // or "Week"
+            return (14, "2 недели", 14) // or "2 weeks"
         case .fiveDays:
             return (5,"5 дней", 5) // or "5 days"
         case .threeDays:
