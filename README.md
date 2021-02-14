@@ -41,7 +41,7 @@ Compatible with iOS 12 and newer.
 <img width="378" alt="screen2" src="https://user-images.githubusercontent.com/77031399/107877720-2a37e280-6edf-11eb-97a1-fafb502bdeab.png">
 <img width="731" alt="screen3" src="https://user-images.githubusercontent.com/77031399/107877721-2b690f80-6edf-11eb-9efd-713be5cf7a10.png">
 <img width="377" alt="screen4" src="https://user-images.githubusercontent.com/77031399/107877722-2c01a600-6edf-11eb-8df8-35fd50b430e1.png">
-<img width="385" alt="screen5" src="https://user-images.githubusercontent.com/77031399/107877724-2c9a3c80-6edf-11eb-8b88-82ccbab91c3c.png">
+<img width="387" alt="screen5" src="https://user-images.githubusercontent.com/77031399/107882720-1b135d80-6efc-11eb-9251-9f1bbdf10605.png">
 <img width="739" alt="screen6" src="https://user-images.githubusercontent.com/77031399/107877725-2c9a3c80-6edf-11eb-8754-b724505d13f6.png">
 <img width="388" alt="screen7" src="https://user-images.githubusercontent.com/77031399/107877727-2d32d300-6edf-11eb-8d4e-6886c1afd8c7.png">
 
